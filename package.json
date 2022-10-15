@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "start": "node --unhandled-rejections=strict  -r ts-node/register ./upload.wordpress.ts"
+  },
+  "engines": {
+    "node": "16",
+    "npm": "8",
+    "vscode": "^1.22.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "lodash": "^4.17.21",
+    "luxon": "^2.4.0",
+    "node-html-parser": "^5.3.3",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2",
+    "wpapi": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/luxon": "^2.3.2",
+    "@types/wpapi": "^1.1.1"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+
+MediaFor*/
+PagesFor*/
+
+/*.txt
+/*.jpeg
+/*.png
+
+.env
